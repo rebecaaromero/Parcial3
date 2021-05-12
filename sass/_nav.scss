@@ -1,0 +1,71 @@
+@import 'variables';
+
+.degradado{
+    width: 100%;
+    height: 100vh;
+    background: rgba(8, 53, 68, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 800;
+}
+
+.menuMovil{
+    z-index: 1000;
+    left: -80%;
+    top: 0;
+    width: 80%;
+    max-width: 600px;
+    height: 100vh;
+    background: #fff;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem 2rem;
+    transition: ease-in-out .25s;
+    a{
+        text-decoration: none;
+        color: #b9b16a;
+        font-size: 3rem;
+        transition: ease-in-out .15;
+        &:hover{
+            background: #ecf0b1;
+            color: #b9b16a;
+        }
+        }
+    .salir{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 2rem;
+        background:#ecf0b1;
+        width: 100%;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: ease-in-out .15;
+        &:hover{
+            background: #b9b16a;
+        }
+    }
+}
+
+.btnmenu{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 600;
+    i{
+        font-size: 1.5rem;
+    }
+}

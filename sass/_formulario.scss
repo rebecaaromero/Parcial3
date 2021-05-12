@@ -1,0 +1,72 @@
+@import 'variables';
+
+.formulario{
+    background-color: #000;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    .caja{
+        margin: 1rem;
+        background: #fff;
+        border-radius: 3rem;
+        width: 700px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        h2{
+            font-size: x-large;
+        }
+        p{
+            font-size: large;
+        }
+        form{
+            display: flex;
+            margin: 1rem;
+            .btnFooter{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                input {
+                    border: 3px none;
+                    background-color: #000;
+                    color: #fff;
+                    border-radius: 2rem;
+                    box-sizing: border-box;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                }
+                button{
+                    border: 3px solid #000;
+                    background-color: #fff;
+                    color: #000;
+                    border-radius: 2rem;
+                    box-sizing: border-box;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                }
+                .warnings{
+                    width: 200px;
+                    text-align: center;
+                    margin: auto;
+                    color: rgb(240, 70, 70);
+                    padding-top: 0.5rem;
+                }
+            }
+            .imgFooter{
+                img{
+                    width: 15vw;
+                    height: 45vh;
+                }
+            }
+        }
+    } }

@@ -1,0 +1,12 @@
+@import 'variables', 'nav', 'header', 'personajes', 'galeria', 'formulario', 'footer';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+h2{
+    color: $yellow;
+}

@@ -1,0 +1,28 @@
+@import 'variables';
+
+.personajes{
+    background: #000;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    .cajas{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        max-width: 1300px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: repeat(auto-fit, 700px);
+        img{
+            overflow: hidden;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
